@@ -55,5 +55,8 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
 
+plugins:
+  - search
+  - table-reader
 
 copyright: Copyright &copy; 2025 KNHCloud

@@ -20,11 +20,7 @@
 
 === "ЛУН-Инвест"
 
-    | Method      | Description                          |
-    | ----------- | ------------------------------------ |
-    | `GET`       | :material-check:     Fetch resource  |
-    | `PUT`       | :material-check-all: Update resource |
-    | `DELETE`    | :material-close:     Delete resource |
+    {{ read_excel('assets/telnums1.xlsx', engine='openpyxl') }}
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
