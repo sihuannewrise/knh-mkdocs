@@ -1,4 +1,30 @@
-# Облачный портал ООО "К.Н. Холдинг" - KNHCloud
+# портал KNHCloud
+
+## Список телефонных номеров
+
+=== "Покровка"
+
+    | Method      | Description                          |
+    | ----------- | ------------------------------------ |
+    | `GET`       | :woman_mage:{ .heart }     Fetch resource  |
+    | `PUT`       | :man: Update resource |
+    | `DELETE`    | :woman:     Delete resource |
+
+=== "Сретенка"
+
+    | Method      | Description                          |
+    | ----------- | ------------------------------------ |
+    | `GET`       | :material-check:     Fetch resource  |
+    | `PUT`       | :material-check-all: Update resource |
+    | `DELETE`    | :material-close:     Delete resource |
+
+=== "ЛУН-Инвест"
+
+    | Method      | Description                          |
+    | ----------- | ------------------------------------ |
+    | `GET`       | :material-check:     Fetch resource  |
+    | `PUT`       | :material-check-all: Update resource |
+    | `DELETE`    | :material-close:     Delete resource |
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
