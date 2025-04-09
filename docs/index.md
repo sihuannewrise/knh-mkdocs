@@ -3,24 +3,19 @@
 ## Список телефонных номеров
 
 === "Покровка"
+    {{ read_excel('assets/mkdocs_telnum_pokrovka.xlsx', engine='openpyxl') }}
+
+=== "Сретенка"
+
+    {{ read_excel('assets/mkdocs_telnum_sretenka.xlsx', engine='openpyxl') }}
+
+=== "ЛУН-Инвест"
 
     | Method      | Description                          |
     | ----------- | ------------------------------------ |
     | `GET`       | :woman_mage:{ .heart }     Fetch resource  |
     | `PUT`       | :man: Update resource |
     | `DELETE`    | :woman:     Delete resource |
-
-=== "Сретенка"
-
-    | Method      | Description                          |
-    | ----------- | ------------------------------------ |
-    | `GET`       | :material-check:     Fetch resource  |
-    | `PUT`       | :material-check-all: Update resource |
-    | `DELETE`    | :material-close:     Delete resource |
-
-=== "ЛУН-Инвест"
-
-    {{ read_excel('assets/telnums1.xlsx', engine='openpyxl') }}
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
