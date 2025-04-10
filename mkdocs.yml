@@ -1,30 +1,13 @@
-site_name: ООО "К.Н. Холдинг"
-site_url: https://knh.cloud
+site_name: KNHcloud
+site_url: http://knhcloud
 theme:
   name: material
-  font:
-    text: Merriweather Sans
-    code: Red Hat Mono
   logo: assets/luk-logo.jpg
-  favicon: assets/luk-logo-svg.svg
+  favicon: assets/luk-logo.jpg
   features:
     - navigation.footer
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Переключить в светлый режим
-      primary: green
-      accent: deep purple
-
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Переключить в темный режим
-      primary: red
-      accent: deep orange
+    primary: red
 
 markdown_extensions:
   - attr_list
