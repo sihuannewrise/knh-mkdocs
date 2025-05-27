@@ -41,5 +41,6 @@ extra_javascript:
 plugins:
   - search
   - table-reader
+  - social
 
 copyright: Copyright &copy; 2025 KNHCloud
