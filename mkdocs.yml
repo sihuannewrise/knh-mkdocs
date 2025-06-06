@@ -1,7 +1,9 @@
-site_name: KNHcloud
+site_name: Портал KNHcloud
 site_url: http://knhcloud
+
 theme:
   name: material
+  language: ru
   logo: assets/luk-logo.jpg
   favicon: assets/luk-logo.jpg
   features:
@@ -38,9 +40,19 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
 
+extra:
+  consent:
+    title: Согласие на обработку персональных данных
+    description: >-
+      Мы используем cookies для улучшения работы сайта, анализа трафика и персонализации.
+      Используя сайт или кликая на кнопку "Принять", Вы соглашаетесь с нашей политикой использования cookies.
+    actions:
+      - accept
+      - manage
+
 plugins:
   - search
   - table-reader
-  - social
 
-copyright: Copyright &copy; 2025 KNHCloud
+copyright:
+  Copyright &copy; 2025 KNHCloud
